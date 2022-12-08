@@ -35,7 +35,6 @@ int main(){
     int kth = 0;
 
     for(int i=options[1] - 1; i<scores.size(); i++){
-        // Penúltimo 7 está na posição 
         if(count > 0 && i < scores.size() - 1){
             kth = scores[i];
             if(scores[i+1] >= kth && scores[i+1] > 0){
